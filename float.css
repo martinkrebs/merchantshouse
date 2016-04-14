@@ -82,7 +82,7 @@ body {
 .image {
 	border: 1px solid black;
 	padding: 10px;
-	margin: 20px;
+	margin: 10px;
 }
 
 .front-summary {
@@ -135,7 +135,7 @@ h1, h2, h3 {
 .image-info p, .image-info ul {
  	min-height: 340px;
 	padding:5px;
-	margin: 10px;
+	margin: 30px;
 	list-style: square;
 	line-height: 150%;
 }
