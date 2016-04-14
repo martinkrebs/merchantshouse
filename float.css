@@ -1,0 +1,149 @@
+/* wildcard * is global selector fo ALL xhtml tags */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: teal;
+	padding: 5px;
+}
+
+#page {
+	color: teal;
+	background-color: white;
+	margin: 0 auto;  /* places #page in middle of body */
+	width: 960px;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+#header {
+ 	background-color: navy;
+	height: 7em;
+	padding: 2em;
+	margin-bottom: 15px;
+
+ }
+ 
+#address{
+	float: right;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: white;
+	line-height: 150%;
+}
+ 
+#header-title {
+	font-family:"Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 42pt;
+	color: white;
+}
+
+#header-tagline {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	color: teal;
+	margin-left: 90px; 
+}
+
+#side-content{
+	float: left;
+	width: 160px;
+	padding: 15px;
+}
+
+#main-content{
+	margin-left: 180px; /* same width as #side-content- stops #main-content wrapping under #side-content */
+	padding: 15px;
+	border-left: 1px solid silver;
+	min-height: 500px;
+}
+
+
+#house-front-image {
+	float: left;
+}
+
+#navigation {
+	list-style: none;
+	font-size: large;
+	line-height: 150%;
+	margin-top: 1.5em;
+}
+
+#house.image {
+	float: left;
+	margin: 10px;
+	
+}
+
+.image {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+
+.front-summary {
+	padding-bottom: 10px;
+	margin: 15px;
+	line-height: 150%
+}
+
+#footer {
+	margin: 24px;
+	padding: 15px;
+	border-top: 1px solid silver;
+}
+
+
+h1, h2, h3 {
+	color: black;
+	background-color: #ADD8E6  /* a light blue */;
+	padding: 2px;
+}
+
+.tagline {
+	margin-top: 15px;
+	margin-bottom:40px;
+	margin-left: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+#rates {
+	margin: 50px;
+}
+
+#rates table, #rates p {
+	margin: 20px 0px 10px 20px;
+}
+
+#rates td {
+	color: black;
+	background-color: #FF9;
+	padding: 5px 15px 5px 15px;
+}
+
+/* These work well for a general picture + info frame */
+.image-info .image {
+  float: left;
+}
+
+.image-info p, .image-info ul {
+ 	min-height: 340px;
+	padding:5px;
+	margin: 10px;
+	list-style: square;
+	line-height: 150%;
+}
+
+
+#contact-details p {
+	margin-left: 20px;
+	font-weight: bold;
+  line-height: 150%;
+}
+
