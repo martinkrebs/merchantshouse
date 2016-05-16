@@ -1,1 +1,43 @@
 /* New local css for new bootstrap based site */
+body {
+    color: white;
+    background-color: #003540;
+}
+
+.container {
+    background-color: white;
+}
+
+.header {
+    background-color: #003540;
+
+}
+
+.header-tagline {
+    font-size: 2em;
+    padding-left: 100px;
+
+}
+
+.header address {
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+.menubar {
+    color: white;
+    background-color: teal;
+    font-size: 1.2em;
+
+}
+.menubar a {
+    color: white;
+}
+
+.menubar a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 4.5em;
+}
