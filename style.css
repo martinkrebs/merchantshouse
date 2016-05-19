@@ -69,3 +69,34 @@ h3 {
     color: teal;
     font-size: 1.4em;
 }
+
+.menubar li.current a{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid teal;
+}
+
+
+.rates table {
+	margin-bottom: 15px;
+}
+
+.rates table, #rates p {
+	/*margin: 20px 0px 10px 20px; */
+}
+
+.rates td {
+	color: black;
+	background-color: #FF9;
+	padding: 10px 15px 5px 15px;
+
+}
+
+.contact-rates {
+    font-size: 1.2em;
+}
+
+div.contact-details p {
+    color: teal;
+    font-weight: bold;
+}
