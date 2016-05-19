@@ -1,0 +1,102 @@
+/* New local css for new bootstrap based site */
+body {
+    background-color: #003540;
+}
+
+.container {
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.header {
+    color: white;
+    background-color: #003540;
+    padding-bottom: 20px;
+
+}
+
+.header-tagline {
+    font-size: 2em;
+    padding-left: 100px;
+
+}
+
+.header address {
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+
+.menubar {
+    color: white;
+    background-color: teal;
+    font-size: 1.2em;
+
+}
+.menubar a {
+    color: white;
+}
+
+.menubar a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.invite-tagline {
+    font-family: 'Parisienne', cursive;
+    padding-left: 30px;
+}
+
+.main-content {
+
+}
+
+.image-info p {
+    font-size: 1.2em;
+    padding-top: 30px;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: teal;
+    font-size: 1.4em;
+}
+
+.menubar li.current a{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid teal;
+}
+
+
+.rates table {
+	margin-bottom: 15px;
+}
+
+.rates table, #rates p {
+	/*margin: 20px 0px 10px 20px; */
+}
+
+.rates td {
+	color: black;
+	background-color: #FF9;
+	padding: 10px 15px 5px 15px;
+
+}
+
+.contact-rates {
+    font-size: 1.2em;
+}
+
+div.contact-details p {
+    color: teal;
+    font-weight: bold;
+}
